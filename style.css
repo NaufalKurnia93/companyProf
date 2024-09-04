@@ -12,25 +12,37 @@
     text-align: center;
 }
 
+.banner_contact {
+    background-image: url('image/amazon.jpg'); 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .banner-overlay {
     background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 10px;
 }
 
-.banner h1, .banner p {
+.banner h3, .banner p {
     margin: 0;
     opacity: 0;
     animation: fadeInUp 1s forwards;
 }
 
-.banner h1 {
+.banner h3 {
     animation-delay: 0.5s;
-    font-size: 2.5rem; /* Ubah sesuai kebutuhan */
+    font-size: 2rem; /* Ubah sesuai kebutuhan */
 }
 
 .banner p {
     animation-delay: 1s;
-    font-size: 1.25rem; /* Ubah sesuai kebutuhan */
+ 
 }
 
 @keyframes fadeInUp {
@@ -63,13 +75,113 @@ footer {
     height: 15vh;
 }
 
-/* responaif */
-@media (max-width: 520px) {
+/* responaif mobile */
+@media (max-width: 679px) {
     .section-padding .container .title {
-        font-size: 16px;
+        font-size: 12px;
+    }
+
+    .banner h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
     }
 
     .section-padding .container p {
         font-size: 12px;
     }
+
+    .img-ceo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .accordion .accordion-item .accordion-button {
+        font-size: 12px;
+    }
+
+    .accordion-body, strong,code {
+        font-size: 10px;
+    }
+    .accordion-body strong {
+        font-size: 10px;
+    }
+     .title {
+        font-size: 14px;
+    }
+
+    
+    .card-body .card-text {
+        font-size: 12px;
+    }
+
+    .card-body .card-title {
+        font-size: 16px;
+    }
+
+    .blogg .container .titles {
+        font-size: 122px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+
+
+}
+
+/* tablet responsif */
+@media (min-width: 680px) and (max-width: 990px)  {
+    .title {
+        font-size: 20px;
+    }
+
+    .lead {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    strong, code {
+        font-size: 14px;
+    }
+
+    .card-body .card-text {
+        font-size: 14px;
+    }
+
+    .card-body .card-title {
+        font-size: 16px;
+    }
+    .blogg .title {
+        font-size: 22px;
+    }
+    .blogg .row .card .title {
+        font-size: 14px;
+    }
+
+    .blogg .row .card .card-body .card-text {
+        font-size: 12px;
+    }
+
+   
+}
+
+/* responsif dekstrop */
+@media (max-width: 1100px)  {
+    .testimonial {
+        overflow: hidden;
+       
+    }
+
+    .testimonial .container .row .card .card-body .card-title  {
+        font-size: 14px;
+    }
+
+    .testimonial .container .row .card .card-body p {
+        font-size: 12px;
+    }
+
+    
 }
