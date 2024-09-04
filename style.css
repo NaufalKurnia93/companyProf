@@ -1,0 +1,47 @@
+/* home */
+.banner {
+    background-image: url('image/banner.jpg'); /* Ganti dengan path gambar kamu */
+    background-size: cover;
+    background-position: center;
+    height: 73vh;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay dengan warna hitam transparan */
+    border-radius: 10px;
+}
+
+/* projek */
+.carousel-inner .carousel-item img {
+    width: 100%; /* Mengatur ukuran gambar sesuai dengan ukuran kontainer */
+    max-width: 600px; /* Atur lebar maksimum sesuai keinginan Anda */
+    height: auto; /* Menjaga rasio gambar */
+    margin: 0 auto; /* Membuat gambar berada di tengah */
+}
+
+.carousel {
+    max-width: 600px; /* Atur lebar maksimum carousel */
+    margin: 0 auto; /* Membuat carousel berada di tengah */
+}
+
+
+footer {
+    height: 15vh;
+}
+
+/* responaif */
+@media (max-width: 520px) {
+    .section-padding .container .title {
+        font-size: 16px;
+    }
+
+    .section-padding .container p {
+        font-size: 12px;
+    }
+}
