@@ -1,4 +1,8 @@
 /* home */
+body {
+    margin-bottom: 0;
+}
+
 .banner {
     background-image: url('image/banner.jpg'); 
     background-size: cover;
@@ -71,14 +75,14 @@
 }
 
 
-footer {
-    height: 15vh;
-}
+/* footer {
+    height: 16vh;
+} */
 
 /* responaif mobile */
 @media (max-width: 679px) {
     .section-padding .container .title {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .banner h3 {
@@ -86,8 +90,12 @@ footer {
         margin-bottom: 5px;
     }
 
+    .titles {
+        font-size: 13px;
+    }
+
     .section-padding .container p {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .img-ceo {
@@ -99,16 +107,13 @@ footer {
         font-size: 12px;
     }
 
-    .accordion-body, strong,code {
+    .accordion-body strong,code {
         font-size: 10px;
     }
-    .accordion-body strong {
-        font-size: 10px;
-    }
+    
      .title {
         font-size: 14px;
     }
-
     
     .card-body .card-text {
         font-size: 12px;
@@ -123,11 +128,16 @@ footer {
     }
 
     p {
-        font-size: 12px;
+        font-size: 2px;
     }
 
+    .footer-tex {
+        font-size: 14px;
+    }
 
-
+    .footer-deks {
+        font-size: 11px;
+    }
 }
 
 /* tablet responsif */
