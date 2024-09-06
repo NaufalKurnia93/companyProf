@@ -2,7 +2,10 @@
 body {
     margin-bottom: 0;
 }
-
+/* 
+.home {
+    overflow: hidden;
+} */
    
     .navbar-nav {
         margin: auto;
@@ -22,7 +25,7 @@ body {
     background-image: url('image/banner.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 73vh;
+    height: 75vh;
     overflow: hidden;
     color: white;
     display: flex;
@@ -96,8 +99,12 @@ body {
 
 /* responaif mobile */
 @media (max-width: 679px) {
+    .navbar .container .collapse .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+        padding: 5px;
+    }
     .section-padding .container .title {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .banner h3 {
@@ -106,7 +113,12 @@ body {
     }
 
     .titles {
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    .studies .container .row .card-body .btn {
+        font-size: 12px;
+        padding: 8px;
     }
 
     .section-padding .container p {
@@ -127,23 +139,81 @@ body {
     }
     
      .title {
-        font-size: 14px;
+        font-size: 15px;
     }
-    
-    .card-body .card-text {
-        font-size: 12px;
+
+    .service .container .row .service-card p {
+        font-size: 10px;
+    }
+
+    .service .container .row .col-md-6 {
+        padding: 0px 60px;
+    }
+
+.studies .container .row .card-body .card-text {
+        font-size: 8px;
+    }
+
+    .tim .container .row  {
+        padding: 9px 74px;
+    }
+
+    .tim .container .row .col-lg-4 .card .card-body .tx {
+        font-size: 9px;
     }
 
     .card-body .card-title {
-        font-size: 16px;
+        font-size: 10px;
+    }
+
+    .studies .container .row .fr {
+        padding: 50px 50px 50px 50px;
+    }
+    
+    .studies .container .row .card-img-top {
+        width: 90px;
+        height: 100px;
+        padding: 10px 69px;
+    }
+
+    .testimonial .container .row {
+        padding: 8px 80px;
+    }
+
+    .testimonial .container .row .card .card-body .card-title  {
+        font-size: 12px;
+    }
+
+    .blogg .container .row .col-md-4 .card .card-body .btn {
+        font-size: 10px;
+    }
+
+    .blogg .container .row .col-md-4 {
+        padding: 20px 80px;
     }
 
     .blogg .container .titles {
         font-size: 12px;
     }
 
+    .contact .container .row {
+        margin: 30px 50px;
+    }
+
     p {
         font-size: 10px;
+    }
+
+    .faq .container .accordion {
+        padding: 4px 50px;
+    }
+
+    .faq .container .accordion .accordion-collapse .accordion-body {
+        font-size: 10px;
+    }
+
+    .ter .row {
+        padding: 0px 60px;
     }
 
     .footer-tex {
@@ -160,6 +230,10 @@ body {
     .title {
         font-size: 20px;
     }
+    
+    p{
+        font-size: 12px;
+    }
 
     .lead {
         font-size: 16px;
@@ -173,12 +247,30 @@ body {
     }
 
     .card-body .card-text {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .card-body .card-title {
-        font-size: 16px;
+        font-size: 14px;
     }
+
+    .studies .container .row  {
+        padding: 0px 90px;
+       
+    }
+
+    .studies .container .row .fr {
+        margin: 30px 0px
+    }
+   
+    
+    .studies .container .row .card-img-top {
+        padding: 50px 60px 5px 60px;
+        
+    }
+
+    
+
     .blogg .title {
         font-size: 22px;
     }
@@ -190,7 +282,17 @@ body {
         font-size: 12px;
     }
 
-   
+    .titles {
+        font-size: 14px;
+    }
+
+    .faq .container .accordion .accordion-collapse .accordion-body {
+        font-size: 11px;
+    }
+
+    .ter .row {
+        padding: 0px 40px;
+    }
 }
 
 /* responsif dekstrop */
@@ -205,7 +307,7 @@ body {
     }
 
     .testimonial .container .row .card .card-body p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     
