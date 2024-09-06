@@ -48,6 +48,7 @@ body {
 
 .banner-overlay {
     background-color: rgba(0, 0, 0, 0.5); 
+    font-family: 'comic sans ms';
     border-radius: 10px;
 }
 
@@ -55,6 +56,7 @@ body {
     margin: 0;
     opacity: 0;
     animation: fadeInUp 1s forwards;
+    font-family: 'comic sans ms';
 }
 
 .banner h3 {
@@ -65,6 +67,11 @@ body {
 .banner p {
     animation-delay: 1s;
  
+}
+
+.testimonial .container .row .card .card-img-top  {
+    width: 100px;
+    height: 100px;
 }
 
 @keyframes fadeInUp {
@@ -180,9 +187,16 @@ body {
         padding: 8px 80px;
     }
 
+    .testimonial .container .row .card .card-img-top  {
+        width: 60px;
+        height: 60px;
+        padding: 0px;
+    }
+
     .testimonial .container .row .card .card-body .card-title  {
         font-size: 12px;
     }
+
 
     .blogg .container .row .col-md-4 .card .card-body .btn {
         font-size: 10px;
@@ -214,6 +228,10 @@ body {
 
     .ter .row {
         padding: 0px 60px;
+    }
+
+    .ter .faq-highlights .cuy .btn {
+        font-size: 10px;
     }
 
     .footer-tex {
