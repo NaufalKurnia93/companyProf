@@ -335,7 +335,7 @@ details p {
 
   .tim .container .row .col-lg-4 .card .card-body .tx {
     font-size: 12px;
-    letter-spacing: 2px;
+    line-height: 1rem;
   }
 
   .card-body .card-title {
@@ -347,9 +347,9 @@ details p {
   }
 
   .studies .container .row .card-img-top {
-    width: 90px;
-    height: 100px;
-    padding: 10px 69px;
+    width: 100px;
+    height: 110px;
+    padding: 10px 42px;
   }
 
   .testimonial .container .row {
@@ -391,7 +391,7 @@ details p {
   }
 
   .faq .container .accordion .accordion-collapse .accordion-body {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   details summary {
