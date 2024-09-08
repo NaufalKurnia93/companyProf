@@ -72,6 +72,7 @@ body {
 
 .banner p {
   animation-delay: 1s;
+ 
 }
 
 .setgap {
@@ -503,6 +504,6 @@ details p {
   }
 
   .banner .font-hom {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 }
