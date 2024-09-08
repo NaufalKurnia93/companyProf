@@ -1,332 +1,508 @@
 /* home */
 body {
-    margin-bottom: 0;
+  margin-bottom: 0;
+  color: #f0f0f0;
 }
-/* 
-.home {
-    overflow: hidden;
-} */
-   
-    .navbar-nav {
-        margin: auto;
-        text-align: center;
-    }
 
-    .navbar-collapse {
-        justify-content: center;
-    }
+/* navbar sesion */
+.navbar {
+  background-color: #1d1e1d;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
 
-    .navbar-collapse.collapse.show {
-        display: flex !important;
-        justify-content: center;
-    }
+.navbar-brand {
+  font-family: "Caveat", cursive;
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+  color: orangered;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-collapse.collapse.show {
+  display: flex !important;
+  justify-content: center;
+}
+
+.navbar-nav {
+  margin: auto;
+  text-align: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-family: "Poppins", sans-serif;
+}
 
 .banner {
-    background-image: url('image/banner.jpg'); 
-    background-size: cover;
-    background-position: center;
-    height: 75vh;
-    overflow: hidden;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  background-image: url("image/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #eaeaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.banner_contact {
-    background-image: url('image/amazon.jpg'); 
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
 .banner-overlay {
-    background-color: rgba(0, 0, 0, 0.5); 
-    font-family: 'comic sans ms';
-    border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "comic sans ms";
+  border-radius: 10px;
 }
 
-.banner h3, .banner p {
-    margin: 0;
-    opacity: 0;
-    animation: fadeInUp 1s forwards;
-    font-family: 'comic sans ms';
+.banner h3,
+.banner p {
+  margin: 0;
+  opacity: 0;
+  animation: fadeInUp 1s forwards;
+  font-family: "comic sans ms]";
 }
 
 .banner h3 {
-    animation-delay: 0.5s;
-    font-size: 2rem; /* Ubah sesuai kebutuhan */
+  animation-delay: 0.5s;
+  font-size: 2rem; /* Ubah sesuai kebutuhan */
 }
 
 .banner p {
-    animation-delay: 1s;
- 
+  animation-delay: 1s;
 }
 
-.testimonial .container .row .card .card-img-top  {
-    width: 100px;
-    height: 100px;
+.setgap {
+    background-color: #141414;
+    padding: 16px 0px;
+}
+/* about sesion */
+.about {
+    background-color: #2a2b2a;
+}
+/* service sesion */
+.service {
+    background-color:  #2a2b2a;
+}
+
+.service .container .row .col-md-6 .service-card {
+    background-color: #3b3c3b;
+}
+
+/* projek sesion */
+.projek {
+  background-color: #2a2b2a;
+}
+
+/* studies sesion */
+.studies {
+  background-color: #2a2b2a;
+}
+
+.studies .container .row .fr .card {
+    background-color: #3b3c3b;
+}
+
+.btn {
+  background-color: #f39c12;
+}
+
+/* team sesion */
+.team {
+  background-color: #2a2b2a;
+}
+
+.team .container .row  .card {
+  background-color: #3b3c3b;
+}
+
+/*client sesion */
+.testimonial {
+  background-color: #2a2b2a;
+}
+
+.testimonial .card {
+  background-color: #3b3c3b;
+}
+
+/* carir sesion */
+.carir {
+    background-color: #2a2b2a;
+  
+}
+
+details {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+details summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #4a4a4a;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+details summary:hover {
+  background-color: #6d6d6d;
+}
+
+details[open] {
+  background-color: #3b3c3b;
+}
+
+details p {
+  font-size: 16px;
+  color: #eaeaeaea;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+.testimonial .container .row .card .card-img-top {
+  width: 100px;
+  height: 100px;
+}
+
+/* blog sesion  */
+.blogg {
+  background-color: #2a2b2a;
+}
+
+.blogg .card {
+  background-color: #3b3c3b;
 }
 
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-
 
 /* projek */
 .carousel-inner .carousel-item img {
-    width: 100%; 
-    max-width: 600px; 
-    height: auto; 
-    margin: 0 auto; 
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .carousel {
-    max-width: 600px; 
-    margin: 0 auto; 
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* contact sesion */
+.contact {
+  background-color: #2a2b2a;
+}
+
+.contact .container .row {
+  background-color: #4a4a4a;
+}
+
+/* Gaya untuk form di dalam card */
+.card .form-group input,
+.card .form-group textarea,
+.card .form-group select {
+    background-color: #6c6c6c; 
+    color: #eaeaeeae; 
+    border: 1px solid #888888;
+    border-radius: 4px; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.card .form-group input:focus,
+.card .form-group textarea:focus,
+.card .form-group select:focus {
+    border-color: #6777ef; 
+    outline: none; 
+    background-color: #5a5a5a; 
+}
+
+/* faq sesion */
+.faq {
+  background-color: #2a2b2a;
+}
+
+.faq .accordion {
+  color: #eaeaea;
+}
+
+.faq .accordion .accordion-item .accordion-header .accordion-button {
+  background-color: #4a4a4a;
+}
+
+.faq .accordion .accordion-item .accordion-header .accordion-button:hover {
+  background-color: #3c3b3c;
+  color: #eaeaea;
+  border: 1px solid #333333;
+}
+
+.faq .accordion .accordion-item .accordion-body{
+  background-color: #6d6d6d;
 }
 
 
-/* footer {
-    height: 16vh;
-} */
+
 
 /* responaif mobile */
 @media (max-width: 679px) {
-    .navbar .container .collapse .navbar-nav .nav-item .nav-link {
-        font-size: 12px;
-        padding: 5px;
-    }
-    .section-padding .container .title {
-        font-size: 15px;
-    }
 
-    .banner h3 {
-        font-size: 1.2rem;
-        margin-bottom: 5px;
-    }
-
-    .titles {
-        font-size: 12px;
-    }
-
-    .studies .container .row .card-body .btn {
-        font-size: 12px;
-        padding: 8px;
-    }
-
-    .section-padding .container p {
-        font-size: 11px;
-    }
-
-    .img-ceo {
-        width: 150px;
-        height: 150px;
-    }
-
-    .accordion .accordion-item .accordion-button {
-        font-size: 12px;
-    }
-
-    .accordion-body strong,code {
-        font-size: 10px;
-    }
-    
-     .title {
-        font-size: 15px;
-    }
-
-    .service .container .row .service-card p {
-        font-size: 10px;
-    }
-
-    .service .container .row .col-md-6 {
-        padding: 0px 60px;
-    }
-
-.studies .container .row .card-body .card-text {
-        font-size: 8px;
-    }
-
-    .tim .container .row  {
-        padding: 9px 74px;
-    }
-
-    .tim .container .row .col-lg-4 .card .card-body .tx {
-        font-size: 9px;
-    }
-
-    .card-body .card-title {
-        font-size: 10px;
-    }
-
-    .studies .container .row .fr {
-        padding: 50px 50px 50px 50px;
-    }
-    
-    .studies .container .row .card-img-top {
-        width: 90px;
-        height: 100px;
-        padding: 10px 69px;
-    }
-
-    .testimonial .container .row {
-        padding: 8px 80px;
-    }
-
-    .testimonial .container .row .card .card-img-top  {
-        width: 60px;
-        height: 60px;
-        padding: 0px;
-    }
-
-    .testimonial .container .row .card .card-body .card-title  {
-        font-size: 12px;
-    }
-
-
-    .blogg .container .row .col-md-4 .card .card-body .btn {
-        font-size: 10px;
-    }
-
-    .blogg .container .row .col-md-4 {
-        padding: 20px 80px;
-    }
-
-    .blogg .container .titles {
-        font-size: 12px;
-    }
-
-    .contact .container .row {
-        margin: 30px 50px;
-    }
-
-    p {
-        font-size: 10px;
-    }
-
-    .faq .container .accordion {
-        padding: 4px 50px;
-    }
-
-    .faq .container .accordion .accordion-collapse .accordion-body {
-        font-size: 10px;
-    }
-
-    .ter .row {
-        padding: 0px 60px;
-    }
-
-    .ter .faq-highlights .cuy .btn {
-        font-size: 10px;
-    }
-
-    .footer-tex {
-        font-size: 14px;
-    }
-
-    .footer-deks {
-        font-size: 16px;
-    }
+  
+.navbar-brand {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  
 }
+ 
+  .section-padding .container .title {
+    font-size: 16px;
+  }
+
+  .banner h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+ .banner .font-hom {
+    font-size: 14px;
+  }
+
+  .titles {
+    font-size: 12px;
+  }
+
+  .studies .container .row .card-body .btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .section-padding .container p {
+    font-size: 14px;
+  }
+
+  .img-ceo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .accordion .accordion-item .accordion-button {
+    font-size: 12px;
+  }
+
+  .accordion-body strong,
+  code {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .service .container .row .service-card p {
+    font-size: 10px;
+  }
+
+  .service .container .row .col-md-6 {
+    padding: 3px 50px;
+  }
+
+  .studies .container .row .card-body .card-text {
+    font-size: 12px;
+
+  }
+
+  .tim .container .row {
+    padding: 8px 50px;
+  }
+
+  .tim .container .row .col-lg-4 .card .card-body .tx {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .card-body .card-title {
+    font-size: 16px;
+  }
+
+  .studies .container .row .fr {
+    padding: 20px 30px 20px 30px;
+  }
+
+  .studies .container .row .card-img-top {
+    width: 90px;
+    height: 100px;
+    padding: 10px 69px;
+  }
+
+  .testimonial .container .row {
+    padding: 5px 50px;
+  }
+
+  .testimonial .container .row .card .card-img-top {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+  }
+
+  .testimonial .container .row .card .card-body .card-title {
+    font-size: 12px;
+  }
+
+  .blogg .container .row .col-md-4 .card .card-body .btn {
+    font-size: 10px;
+  }
+
+  .blogg .container .row .col-md-4 {
+    padding: 16px 50px;
+  }
+
+  .blogg .container .titles {
+    font-size: 14px;
+  }
+
+  .contact .container .row {
+    margin: 10px 30px;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .faq .container .accordion {
+    padding: 4px 50px;
+  }
+
+  .faq .container .accordion .accordion-collapse .accordion-body {
+    font-size: 10px;
+  }
+
+  details summary {
+    font-size: 14px;
+  }
+
+  .ter .row {
+    padding: 0px 60px;
+  }
+
+  .ter .faq-highlights .cuy .btn {
+    font-size: 10px;
+  }
+
+  .footer-tex {
+    font-size: 14px;
+  }
+
+  .footer-deks {
+    font-size: 16px;
+  }
+}
+
 
 /* tablet responsif */
-@media (min-width: 680px) and (max-width: 990px)  {
-    .title {
-        font-size: 20px;
-    }
-    
-    p{
-        font-size: 12px;
-    }
+@media (min-width: 680px) and (max-width: 990px) {
+  .title {
+    font-size: 20px;
+  }
 
-    .lead {
-        font-size: 16px;
-    }
+  p {
+    font-size: 12px;
+  }
 
-    p {
-        font-size: 14px;
-    }
-    strong, code {
-        font-size: 14px;
-    }
+  .banner .font-hom {
+    font-size: 15px;
+  }
 
-    .card-body .card-text {
-        font-size: 12px;
-    }
 
-    .card-body .card-title {
-        font-size: 14px;
-    }
+  .lead {
+    font-size: 16px;
+  }
 
-    .studies .container .row  {
-        padding: 0px 90px;
-       
-    }
+  p {
+    font-size: 14px;
+  }
+  strong,
+  code {
+    font-size: 14px;
+  }
 
-    .studies .container .row .fr {
-        margin: 30px 0px
-    }
-   
-    
-    .studies .container .row .card-img-top {
-        padding: 50px 60px 5px 60px;
-        
-    }
+  .card-body .card-text {
+    font-size: 14px;
+  }
 
-    
+  .card-body .card-title {
+    font-size: 16px;
+  }
 
-    .blogg .title {
-        font-size: 22px;
-    }
-    .blogg .row .card .title {
-        font-size: 14px;
-    }
+  .studies .container .row {
+    padding: 8px 50px;
+  }
 
-    .blogg .row .card .card-body .card-text {
-        font-size: 12px;
-    }
+  .studies .container .row .fr {
+    margin: 30px 0px;
+  }
 
-    .titles {
-        font-size: 14px;
-    }
+  .studies .container .row .card-img-top {
+    padding: 40px 48px 5px 48px;
+  }
 
-    .faq .container .accordion .accordion-collapse .accordion-body {
-        font-size: 11px;
-    }
+  .blogg .title {
+    font-size: 22px;
+  }
+  .blogg .row .card .title {
+    font-size: 14px;
+  }
 
-    .ter .row {
-        padding: 0px 40px;
-    }
+  .blogg .row .card .card-body .card-text {
+    font-size: 12px;
+  }
+
+  .titles {
+    font-size: 1rem;
+  }
+
+  .faq .container .accordion .accordion-collapse .accordion-body {
+    font-size: 12px;
+  }
+
+  .ter .row {
+    padding: 0px 30px;
+  }
 }
 
+
 /* responsif dekstrop */
-@media (max-width: 1100px)  {
-    .testimonial {
-        overflow: hidden;
-       
-    }
+@media (min-width: 991px) {
+  .testimonial {
+    overflow: hidden;
+  }
 
-    .testimonial .container .row .card .card-body .card-title  {
-        font-size: 14px;
-    }
+  .testimonial .container .row .card .card-body .card-title {
+    font-size: 14px;
+  }
 
-    .testimonial .container .row .card .card-body p {
-        font-size: 10px;
-    }
+  .testimonial .container .row .card .card-body p {
+    font-size: 12px;
+  }
 
-    
+  .banner .font-hom {
+    font-size: 1rem;
+  }
 }
