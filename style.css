@@ -248,11 +248,12 @@ details p {
 
 .faq .accordion .accordion-item .accordion-header .accordion-button {
   background-color: #4a4a4a;
+  color: #eaeaeaea;
 }
 
 .faq .accordion .accordion-item .accordion-header .accordion-button:hover {
   background-color: #3c3b3c;
-  color: #eaeaea;
+  color: #ffffff;
   border: 1px solid #333333;
 }
 
