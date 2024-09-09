@@ -2,6 +2,7 @@
 body {
   margin-bottom: 0;
   color: #f0f0f0;
+  box-sizing: border-box;
 }
 
 /* navbar sesion */
@@ -34,28 +35,51 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
+/* Container utama */
 .banner {
-  background-image: url("image/banner.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  overflow: hidden;
-  color: #eaeaeaea;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  position: relative; /* Agar overlay tetap berada di atas video */
 }
 
+/* Video styling */
+.banner video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
+/* Overlay styling */
 .banner-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  font-family: "comic sans ms";
-  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 0 2rem; 
+  background: rgba(0, 0, 0, 0.6); 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box; 
 }
+
+.banner-overlay .kotak {
+  background-color:rgba(0, 0, 0, 0.7); 
+}
+
 
 .banner h3,
 .banner p {
@@ -72,24 +96,29 @@ body {
 
 .banner p {
   animation-delay: 1s;
- 
+  letter-spacing: 3px;
 }
 
 .setgap {
-    background-color: #141414;
-    padding: 16px 0px;
+  background-color: #141414;
+  padding: 16px 0px;
 }
 /* about sesion */
 .about {
-    background-color: #2a2b2a;
+  background-color: #2a2b2a;
+}
+
+.amet {
+  color: orangered;
+  letter-spacing: 2px;
 }
 /* service sesion */
 .service {
-    background-color:  #2a2b2a;
+  background-color: #2a2b2a;
 }
 
 .service .container .row .col-md-6 .service-card {
-    background-color: #3b3c3b;
+  background-color: #3b3c3b;
 }
 
 /* projek sesion */
@@ -103,7 +132,7 @@ body {
 }
 
 .studies .container .row .fr .card {
-    background-color: #3b3c3b;
+  background-color: #3b3c3b;
 }
 
 .btn {
@@ -115,7 +144,7 @@ body {
   background-color: #2a2b2a;
 }
 
-.team .container .row  .card {
+.team .container .row .card {
   background-color: #3b3c3b;
 }
 
@@ -130,8 +159,7 @@ body {
 
 /* carir sesion */
 .carir {
-    background-color: #2a2b2a;
-  
+  background-color: #2a2b2a;
 }
 
 details {
@@ -169,7 +197,6 @@ details p {
   padding: 10px;
 }
 
-
 .testimonial .container .row .card .card-img-top {
   width: 100px;
   height: 100px;
@@ -198,14 +225,15 @@ details p {
 /* projek */
 .carousel-inner .carousel-item img {
   width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin: 0 auto;
+  max-height: 10%;
+  padding: 20px;
 }
 
+
 .carousel {
-  max-width: 600px;
+  max-width: 50%;
   margin: 0 auto;
+ 
 }
 
 /* contact sesion */
@@ -221,20 +249,20 @@ details p {
 .card .form-group input,
 .card .form-group textarea,
 .card .form-group select {
-    background-color: #6c6c6c; 
-    color: #eaeaeeae; 
-    border: 1px solid #888888;
-    border-radius: 4px; 
-    padding: 10px; 
-    box-sizing: border-box;
+  background-color: #6c6c6c;
+  color: #eaeaeeae;
+  border: 1px solid #888888;
+  border-radius: 4px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .card .form-group input:focus,
 .card .form-group textarea:focus,
 .card .form-group select:focus {
-    border-color: #6777ef; 
-    outline: none; 
-    background-color: #5a5a5a; 
+  border-color: #6777ef;
+  outline: none;
+  background-color: #5a5a5a;
 }
 
 /* faq sesion */
@@ -257,23 +285,19 @@ details p {
   border: 1px solid #333333;
 }
 
-.faq .accordion .accordion-item .accordion-body{
+.faq .accordion .accordion-item .accordion-body {
   background-color: #6d6d6d;
 }
 
-
-
-
 /* responaif mobile */
 @media (max-width: 679px) {
+  .navbar-brand {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
 
-  
-.navbar-brand {
-  font-size: 1.1rem;
-  letter-spacing: 2px;
-  
-}
  
+
   .section-padding .container .title {
     font-size: 16px;
   }
@@ -283,9 +307,21 @@ details p {
     margin-bottom: 5px;
   }
 
- .banner .font-hom {
+  .banner .font-hom {
     font-size: 14px;
+    letter-spacing: 1px;
   }
+
+  .about .container .wakwaw  {
+    padding: 0px 5px;
+    margin: 0px 4px;
+  }
+
+  .about .container .slebew  {
+    padding: 0px 8px;
+    margin: 0px 20px;
+  }
+
 
   .titles {
     font-size: 12px;
@@ -301,8 +337,8 @@ details p {
   }
 
   .img-ceo {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 200px;
   }
 
   .accordion .accordion-item .accordion-button {
@@ -328,7 +364,6 @@ details p {
 
   .studies .container .row .card-body .card-text {
     font-size: 12px;
-
   }
 
   .tim .container .row {
@@ -370,7 +405,6 @@ details p {
 
   .testimonial .container .row .card .card-body p {
     font-size: 13px;
-
   }
 
   .blogg .container .row .col-md-4 .card .card-body .btn {
@@ -422,7 +456,6 @@ details p {
   }
 }
 
-
 /* tablet responsif */
 @media (min-width: 680px) and (max-width: 990px) {
   .title {
@@ -435,8 +468,12 @@ details p {
 
   .banner .font-hom {
     font-size: 15px;
+ 
   }
 
+  .about .container .row .img-ceo {
+    padding: 20px 40px;
+  }
 
   .lead {
     font-size: 16px;
@@ -493,7 +530,6 @@ details p {
     padding: 0px 30px;
   }
 }
-
 
 /* responsif dekstrop */
 @media (min-width: 991px) {
