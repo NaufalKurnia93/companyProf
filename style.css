@@ -65,8 +65,8 @@ body {
 .banner-overlay {
   color: white;
   text-align: center;
-  padding: 0 2rem; 
-  background: rgba(0, 0, 0, 0.6); 
+  padding: 0 1.5rem; 
+  background: rgba(0, 0, 0, 0.1); 
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -77,7 +77,11 @@ body {
 }
 
 .banner-overlay .kotak {
-  background-color:rgba(0, 0, 0, 0.7); 
+  background-color:rgba(0, 0, 0, 0.5); 
+}
+
+.banner-overlay .neon {
+  padding: 20px 42px;
 }
 
 
@@ -231,9 +235,15 @@ details p {
 
 
 .carousel {
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
- 
+}
+
+.carousel-caption {
+  background-color: #eaeaeaea;
+  border-radius: 18px;
+  padding: 10px;
+  margin-bottom: 16px;
 }
 
 /* contact sesion */
@@ -307,6 +317,10 @@ details p {
     margin-bottom: 5px;
   }
 
+  .banner-overlay .neon {
+    padding: 14px 24px;
+  }
+
   .banner .font-hom {
     font-size: 14px;
     letter-spacing: 1px;
@@ -339,6 +353,10 @@ details p {
   .img-ceo {
     width: 180px;
     height: 200px;
+  }
+
+  .carousel {
+    max-width: 80%;
   }
 
   .accordion .accordion-item .accordion-button {
@@ -384,9 +402,8 @@ details p {
   }
 
   .studies .container .row .card-img-top {
-    width: 100px;
-    height: 110px;
-    padding: 10px 42px;
+    max-height: 390px;
+    padding: 20px 22px;
   }
 
   .testimonial .container .row {
@@ -495,6 +512,10 @@ details p {
     font-size: 16px;
   }
 
+  .carousel {
+    max-width: 90%;
+  }
+
   .studies .container .row {
     padding: 8px 50px;
   }
@@ -504,7 +525,7 @@ details p {
   }
 
   .studies .container .row .card-img-top {
-    padding: 40px 48px 5px 48px;
+    padding: 8px 48px 5px 48px;
   }
 
   .blogg .title {
