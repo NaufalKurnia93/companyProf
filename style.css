@@ -365,7 +365,12 @@ details p {
   }
 
   .testimonial .container .row .card .card-body .card-title {
-    font-size: 12px;
+    font-size: 15px;
+  }
+
+  .testimonial .container .row .card .card-body p {
+    font-size: 13px;
+
   }
 
   .blogg .container .row .col-md-4 .card .card-body .btn {
@@ -497,11 +502,11 @@ details p {
   }
 
   .testimonial .container .row .card .card-body .card-title {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .testimonial .container .row .card .card-body p {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .banner .font-hom {
