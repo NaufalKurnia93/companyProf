@@ -105,7 +105,14 @@ body {
 
 .setgap {
   background-color: #141414;
+  color: red;
   padding: 16px 0px;
+}
+
+.serda {
+  background-color: #141414;
+  padding: 14px ;
+ 
 }
 /* about sesion */
 .about {
