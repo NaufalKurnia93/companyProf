@@ -318,7 +318,11 @@ details p {
   }
 
  .banner {
-  height: 67vh;
+  height: 72vh;
+ }
+
+ .banner video {
+  height: 72vh;
  }
 
   .section-padding .container .title {
@@ -331,7 +335,7 @@ details p {
   }
 
   .banner-overlay {
-    margin-top: 80px;
+    margin-top: 90px;
   }
 
   .banner-overlay .neon {
@@ -506,7 +510,11 @@ details p {
   }
 
   .banner {
-    height: 84vh;
+    height: 88vh;
+  }
+
+  .banner video {
+    height: 88vh;
   }
 
   .banner-overlay {
