@@ -112,6 +112,10 @@ body {
   background-color: #2a2b2a;
 }
 
+.about .text {
+  padding: 5px 24px;
+}
+
 .amet {
   color: orangered;
   letter-spacing: 2px;
@@ -329,6 +333,11 @@ details p {
   .about .container .wakwaw  {
     padding: 0px 5px;
     margin: 0px 4px;
+  }
+
+  .about .text {
+    padding: 4px 14px;
+    text-align: center;
   }
 
   .about .container .slebew  {
