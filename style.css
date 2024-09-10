@@ -310,7 +310,9 @@ details p {
     letter-spacing: 2px;
   }
 
- 
+ .banner {
+  height: 70vh;
+ }
 
   .section-padding .container .title {
     font-size: 16px;
@@ -319,6 +321,10 @@ details p {
   .banner h3 {
     font-size: 1.2rem;
     margin-bottom: 5px;
+  }
+
+  .banner-overlay {
+    margin-top: 85px;
   }
 
   .banner-overlay .neon {
@@ -490,6 +496,14 @@ details p {
 
   p {
     font-size: 12px;
+  }
+
+  .banner {
+    height: 84vh;
+  }
+
+  .banner-overlay {
+    margin-top: 90px;
   }
 
   .banner .font-hom {
