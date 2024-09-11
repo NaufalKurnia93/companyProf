@@ -17,7 +17,7 @@ body {
   font-family: "Caveat", cursive;
   font-size: 1.8rem;
   letter-spacing: 5px;
-  color: lightblue;
+  color: #00FFFF;
 }
 
 .navbar-collapse {
@@ -127,7 +127,7 @@ body {
 }
 
 .amet {
-  color: #C8ACD6;
+  color: #00FFFF;
   letter-spacing: 2px;
 }
 /* service sesion */
