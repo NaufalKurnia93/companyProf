@@ -1,13 +1,13 @@
 /* home */
 body {
   margin-bottom: 0;
-  color: #f0f0f0;
+  color: #C8ACD6;
   box-sizing: border-box;
 }
 
 /* navbar sesion */
 .navbar {
-  background-color: #1d1e1d;
+  background-color: #17153B;
   position: fixed;
   width: 100%;
   z-index: 9999;
@@ -17,7 +17,7 @@ body {
   font-family: "Caveat", cursive;
   font-size: 1.8rem;
   letter-spacing: 5px;
-  color: orangered;
+  color: lightblue;
 }
 
 .navbar-collapse {
@@ -77,7 +77,7 @@ body {
 }
 
 .banner-overlay .kotak {
-  background-color:rgba(0, 0, 0, 0.5); 
+  background-color: rgba(46, 35, 108, 0.5);
 }
 
 .banner-overlay .neon {
@@ -104,76 +104,86 @@ body {
 }
 
 .setgap {
-  background-color: #141414;
+  background-color: #17153B;
   padding: 16px 0px;
 }
 
 .serda {
-  background-color: #141414;
+  background-color: #17153B;
   padding: 14px ;
  
 }
 /* about sesion */
 .about {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .about .text {
   padding: 5px 24px;
 }
 
+.about .kartu {
+  background-color: #2E236C;
+}
+
 .amet {
-  color: orangered;
+  color: #C8ACD6;
   letter-spacing: 2px;
 }
 /* service sesion */
 .service {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .service .container .row .col-md-6 .service-card {
-  background-color: #3b3c3b;
+  background-color: #2E236C; 
 }
 
 /* projek sesion */
 .projek {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 /* studies sesion */
 .studies {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .studies .container .row .fr .card {
-  background-color: #3b3c3b;
+  background-color: #2E236C;
 }
 
 .btn {
-  background-color: #f39c12;
+  background-color: #C8ACD6;
+   color: #2E236C;
+}
+
+.btn:hover {
+  background-color: #554C99;
+  color: #FFFFFF;
 }
 
 /* team sesion */
 .team {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .team .container .row .card {
-  background-color: #3b3c3b;
+  background-color: #2E236C;
 }
 
 /*client sesion */
 .testimonial {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .testimonial .card {
-  background-color: #3b3c3b;
+  background-color: #2E236C;
 }
 
 /* carir sesion */
 .carir {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 details {
@@ -189,20 +199,22 @@ details summary {
   font-weight: bold;
   cursor: pointer;
   padding: 10px;
-  background-color: #4a4a4a;
-  color: #ffffff;
+  background-color: #2E236C;
+  color:  #9A86B1;
   border-radius: 5px;
   transition: background-color 0.3s ease;
   outline: none;
 }
 
 details summary:hover {
-  background-color: #6d6d6d;
+  background-color: #9A86B1;
+  color: #dddd;
 }
 
 details[open] {
-  background-color: #3b3c3b;
+  background-color:  #6A5ACD;
 }
+
 
 details p {
   font-size: 16px;
@@ -218,11 +230,11 @@ details p {
 
 /* blog sesion  */
 .blogg {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .blogg .card {
-  background-color: #3b3c3b;
+  background-color: #2E236C;
 }
 
 @keyframes fadeInUp {
@@ -258,20 +270,20 @@ details p {
 
 /* contact sesion */
 .contact {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .contact .container .row {
-  background-color: #4a4a4a;
+  background-color: #2E236C;
 }
 
 /* Gaya untuk form di dalam card */
 .card .form-group input,
 .card .form-group textarea,
 .card .form-group select {
-  background-color: #6c6c6c;
+  background-color: #433D8B;
   color: #eaeaeeae;
-  border: 1px solid #888888;
+  border: 1px solid #C8ACD6;
   border-radius: 4px;
   padding: 10px;
   box-sizing: border-box;
@@ -282,12 +294,12 @@ details p {
 .card .form-group select:focus {
   border-color: #6777ef;
   outline: none;
-  background-color: #5a5a5a;
+  background-color:  #9A86B1;
 }
 
 /* faq sesion */
 .faq {
-  background-color: #2a2b2a;
+  background-color: #433D8B;
 }
 
 .faq .accordion {
@@ -295,18 +307,24 @@ details p {
 }
 
 .faq .accordion .accordion-item .accordion-header .accordion-button {
-  background-color: #4a4a4a;
-  color: #eaeaeaea;
+  background-color:  #2E236C;
+  color: #C8ACD6;
 }
 
 .faq .accordion .accordion-item .accordion-header .accordion-button:hover {
-  background-color: #3c3b3c;
-  color: #ffffff;
-  border: 1px solid #333333;
+  background-color: #A78EB6;
+  color:  #17153B;
+  border: 1px solid #ffff;
+
 }
 
 .faq .accordion .accordion-item .accordion-body {
-  background-color: #6d6d6d;
+  background-color: #433D8B;
+}
+
+footer {
+ background-color: #17153B;
+ color: #C8ACD6;
 }
 
 /* responaif mobile */
