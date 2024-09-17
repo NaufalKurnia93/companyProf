@@ -49,6 +49,10 @@ body {
   position: relative; /* Agar overlay tetap berada di atas video */
 }
 
+/* navbar selesai */
+
+
+
 /* Video styling */
 .banner video {
   width: 100%;
@@ -95,7 +99,7 @@ body {
 
 .banner h3 {
   animation-delay: 0.5s;
-  font-size: 2rem; /* Ubah sesuai kebutuhan */
+  font-size: 2rem; 
 }
 
 .banner p {
@@ -103,6 +107,9 @@ body {
   letter-spacing: 3px;
 }
 
+/* banner selesai */
+
+/* penanda section start */
 .setgap {
   background-color: #17153B;
   padding: 16px 0px;
@@ -113,6 +120,10 @@ body {
   padding: 14px ;
  
 }
+
+/* penanda section selesai */
+
+
 /* about sesion */
 .about {
   background-color: #433D8B;
@@ -130,6 +141,10 @@ body {
   color: #00FFFF;
   letter-spacing: 2px;
 }
+
+/* about selesai */
+
+
 /* service sesion */
 .service {
   background-color: #433D8B;
@@ -139,10 +154,16 @@ body {
   background-color: #2E236C; 
 }
 
+/* service selesai */
+
+
 /* projek sesion */
 .projek {
   background-color: #433D8B;
 }
+
+/* projeck selesai */
+
 
 /* studies sesion */
 .studies {
@@ -153,6 +174,10 @@ body {
   background-color: #2E236C;
 }
 
+/* studies selesai */
+
+
+/* style tommbol button */
 .btn {
   background-color: #C8ACD6;
    color: #2E236C;
@@ -163,6 +188,9 @@ body {
   color: #FFFFFF;
 }
 
+/* style button selesai */
+
+
 /* team sesion */
 .team {
   background-color: #433D8B;
@@ -172,6 +200,9 @@ body {
   background-color: #2E236C;
 }
 
+/* team selesai */
+
+
 /*client sesion */
 .testimonial {
   background-color: #433D8B;
@@ -180,6 +211,15 @@ body {
 .testimonial .card {
   background-color: #2E236C;
 }
+
+
+.testimonial .container .row .card .card-img-top {
+  width: 100px;
+  height: 100px;
+}
+
+/* client selesai */
+
 
 /* carir sesion */
 .carir {
@@ -222,11 +262,9 @@ details p {
   margin-top: 10px;
   padding: 10px;
 }
+/* carir selesai */
 
-.testimonial .container .row .card .card-img-top {
-  width: 100px;
-  height: 100px;
-}
+
 
 /* blog sesion  */
 .blogg {
@@ -267,6 +305,8 @@ details p {
   padding: 10px;
   margin-bottom: 16px;
 }
+/* projek selesai */
+
 
 /* contact sesion */
 .contact {
@@ -296,6 +336,8 @@ details p {
   outline: none;
   background-color:  #9A86B1;
 }
+/* contact selesai */
+
 
 /* faq sesion */
 .faq {
@@ -321,15 +363,19 @@ details p {
 .faq .accordion .accordion-item .accordion-body {
   background-color: #433D8B;
 }
+/* faq selesai */
 
+
+/* footer */
 footer {
  background-color: #17153B;
  color: #C8ACD6;
 }
 
+
 /* responaif mobile */
 @media (max-width: 679px) {
-  .navbar-brand {
+y.navbar-brand {
     font-size: 1.1rem;
     letter-spacing: 2px;
   }
