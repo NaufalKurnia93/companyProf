@@ -93,7 +93,7 @@ body {
 .banner p {
   margin: 0;
   opacity: 0;
-  animation: fadeInUp 1s forwards;
+  animation: fadeInUp 2s forwards;
   font-family: "comic sans ms]";
 }
 
@@ -278,7 +278,7 @@ details p {
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
