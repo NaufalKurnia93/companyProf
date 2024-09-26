@@ -184,8 +184,12 @@ body {
 }
 
 .btn:hover {
-  background-color: #554C99;
-  color: #FFFFFF;
+  background-color: lightseagreen;
+  color: #000000;
+  border: 1px solid #00FFFF;
+   box-shadow: 3px 2px 60px 6px rgba(219,110,110,0.75);
+  -webkit-box-shadow: 3px 2px 60px 6px rgba(219,110,110,0.75);
+  -moz-box-shadow: 3px 2px 60px 6px rgba(219,110,110,0.75);;
 }
 
 /* style button selesai */
@@ -274,7 +278,7 @@ details p {
 .blogg .card {
   background-color: #2E236C;
 }
-
+/* css animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;

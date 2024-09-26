@@ -19,6 +19,10 @@
     />
     <!-- font awesome -->
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos -->
+
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -130,7 +134,7 @@
 
         <div class="row justify-content-center wakwaw">
           <div
-            class="card p-4 rounded shadow kartu col-lg-6 col-11 align-self-start mt-"
+          data-aos="fade-down-right" data-aos-duration="1000" class="card p-4 rounded shadow kartu col-lg-6 col-11 align-self-start mt-"
           >
             <p class="fs-6 titles">
               <span class="title fs-5 amet pe-1">Cipta Tech</span> adalah
@@ -153,7 +157,7 @@
             </p>
           </div>
           <div class="col-lg-1 py-5 col-0"></div>
-          <div class="col-lg-5">
+          <div class="col-lg-5" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="200">
             <div class="text-center justify-content-center align-self-start">
               <h5 class="title py-2">Pendiri Perusahaan</h5>
               <img
@@ -179,7 +183,7 @@
         <h4 class="title mt-5 text-center">Tujuan</h4>
         <hr class="bg-white" />
         <div class="row justify-content-center mb-5 mt-2 slebew">
-          <div class="col-lg-4 card kartu shadow rounded">
+          <div class="col-lg-4 card kartu shadow rounded" data-aos="zoom-in-down" data-aos-duration="1200">
             <div class="icon p-2 text-end">
               <i
                 class="fas fa-star fa-2x fa-beat-fade rounded-circle bg-dark p-2"
@@ -194,7 +198,7 @@
           </div>
           <div class="col-lg-2 col-0 my-4"></div>
 
-          <div class="col-lg-4 card kartu shadow rounded">
+          <div class="col-lg-4 card kartu shadow rounded" data-aos="zoom-in-left" data-aos-duration="1500" data-aos-delay="200">
             <div class="icon p-2 text-end">
               <i
                 class="fas fa-eye fa-2x fa-beat-fade rounded-circle bg-dark p-2"
@@ -227,7 +231,8 @@
         <h3 class="text-center mb-5 title setgap">Layanan Kami</h3>
         <div class="row">
           <!-- Service 1 -->
-          <div class="col-md-6 col-lg-3 mb-4">
+          <div class="col-md-6 col-lg-3 mb-4"  data-aos="flip-left"  data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <div class="service-card p-4 rounded shadow-sm text-center">
               <h3 class="h4 titles">Pengembangan Lunak Kustom</h3>
               <i class="fa-duotone fa-solid fa-code fa-beat-fade h1 py-3"></i>
@@ -238,7 +243,7 @@
             </div>
           </div>
           <!-- Service 2 -->
-          <div class="col-md-6 col-lg-3 mb-4">
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="zoom-in-up"  data-aos-duration="1000" data-aos-delay="300">
             <div class="service-card p-4 rounded shadow-sm text-center">
               <h3 class="h4 titles">Pengembangan Aplikasi Mobile</h3>
               <i class="fa-duotone fa-solid fa-mobile fa-beat-fade h1 py-3"></i>
@@ -249,7 +254,7 @@
             </div>
           </div>
           <!-- Service 3 -->
-          <div class="col-md-6 col-lg-3 mb-4">
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="zoom-in-up"  data-aos-duration="1000" data-aos-delay="300">
             <div class="service-card p-4 rounded shadow-sm text-center">
               <h3 class="h4 titles">Layanan Efesiensi Cloud</h3>
               <i class="fa-solid fa-cloud-meatball fa-beat-fade h1 py-3"></i>
@@ -260,7 +265,8 @@
             </div>
           </div>
           <!-- Service 4 -->
-          <div class="col-md-6 col-lg-3 mb-4">
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="flip-right"  data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <div class="service-card p-4 rounded shadow-sm text-center">
               <h3 class="h4 titles">Layanan Konsultasi IT</h3>
               <i class="fa-solid fa-microchip fa-beat-fade h1 py-3"></i>
@@ -301,7 +307,10 @@
           </p>
         </div>
 
-        <div
+        <div 
+        data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="600"
           id="carouselExampleCaptions"
           class="carousel slide text-dark"
           data-bs-ride="carousel"
@@ -419,7 +428,9 @@
         </div>
 
         <div class="row row-md-gap">
-          <div class="col-lg-6 mt-lg-5 pt-lg-5 mb- fr">
+          <div class="col-lg-6 mt-lg-5 pt-lg-5 mb- fr" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <div class="card p-4">
               <img
                 src="image/stud1.jpg"
@@ -440,7 +451,9 @@
             </div>
           </div>
 
-          <div class="col-lg-5 mb-4 fr">
+          <div class="col-lg-5 mb-4 fr" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <div class="card p-3">
               <img
                 src="image/stud.jpg"
@@ -490,7 +503,7 @@
         <!-- Team Members -->
         <div class="row text-center">
           <!-- Member 1 -->
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 mb-4" data-aos="fade-down-right">
             <div class="card shadow-sm">
               <div class="card-header pt-4">
                 <img
@@ -513,7 +526,7 @@
           </div>
 
           <!-- Member 2 -->
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 mb-4" data-aos="zoom-in-up">
             <div class="card shadow-sm">
               <div class="card-header p-4">
                 <img
@@ -536,7 +549,7 @@
           </div>
 
           <!-- Member 3 -->
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-down-left">
             <div class="card shadow-sm">
               <div class="card-header pt-4">
                 <img
@@ -561,7 +574,7 @@
 
         <div class="row text-center mt-4">
           <!-- Member 4 -->
-          <div class="col-lg-4 offset-lg-2 mb-4">
+          <div class="col-lg-4 offset-lg-2 mb-4" data-aos="fade-up-right">
             <div class="card shadow-sm pt-4">
               <div class="card-header">
                 <img
@@ -585,7 +598,7 @@
           </div>
 
           <!-- Member 5 -->
-          <div class="col-lg-4">
+          <div class="col-lg-4" data-aos="fade-up-left">
             <div class="card shadow-sm">
               <div class="card-header pt-4">
                 <img
@@ -1202,5 +1215,15 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- aos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- aos -->
+
+    <script>
+     
+      AOS.init();
+    </script>
+    
   </body>
 </html>
